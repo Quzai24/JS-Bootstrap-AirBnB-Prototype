@@ -5,13 +5,15 @@ function MainModule(listingsID = "#listings") {
   const listingsElement = document.querySelector(listingsID);
 
   function getListingCode(listing) {
+    // Makes the HTML code for a single listing card in the main listings grid
     return `<div class="col-lg-3 col-md-4 col-sm-6">
   <div id="listing" class="card">
     <a href="./side.html?id=${listing.id}">
       <img
-      src="https://a0.muscache.com/pictures/b7c2a199-4c17-4ba6-b81d-751719d2dac6.jpg"
+      src="${listing.picture_url}"
       class="card-img-top"
       alt="AirBNB Listing"
+      onerror='this.src = "https://a0.muscache.com/pictures/b7c2a199-4c17-4ba6-b81d-751719d2dac6.jpg"'
       />
     </a>
     <div class="card-body">

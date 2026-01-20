@@ -5,8 +5,7 @@
 }
 
 #listings .card {
-  height: 97%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #listings .card-text {
@@ -28,12 +27,15 @@ body {
   background-color: #202040 !important;
   background-image: none !important;
   color: #ffffff !important;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .navbar .navbar-brand,
 .navbar .nav-link,
 .navbar .navbar-toggler {
   color: #ffffff !important;
+  font-size: 20px;
 }
 
 .navbar-toggler-icon {
@@ -46,4 +48,13 @@ body {
 
 .card-body {
     color: white;
+    padding:10 px;
+}
+
+.host-picture {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
 }
