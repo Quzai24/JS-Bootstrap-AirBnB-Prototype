@@ -1,0 +1,1 @@
+This is a prototype of a AirBnb browsing website for AirBnbs in San Fransisco. It uses a database that was made from data from 2023. You can click on the images or buttons to open a side view with more details about the listing. It only shows the top 50 listings in the database. You can access the GitHub pages at https://quzai24.github.io/JS-Bootstrap-AirBnB-Prototype/.
